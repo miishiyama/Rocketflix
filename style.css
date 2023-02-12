@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif
 }
 
 :root {
     --title: #FFFCF9;
     --bg-button: #E9E6E3;
-    --background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%);
+    --background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%)
 }
 
 body,
@@ -16,7 +16,7 @@ header,
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 body {
@@ -24,11 +24,11 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh
 }
 
 header {
-    margin-top: 6.25rem;
+    margin-top: 6.25rem
 }
 
 header h1 {
@@ -38,22 +38,22 @@ header h1 {
     line-height: 3.75rem;
     color: var(--title);
     margin-bottom: 1.875rem;
-    text-align: center;
+    text-align: center
 }
 
 .content {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .content-left img {
     width: 10.688rem;
-    height: 15.236rem;
+    height: 15.236rem
 }
 
 .content-right {
     width: 26.438rem;
-    margin-left: 2.125rem;
+    margin-left: 2.125rem
 }
 
 .content-right h2 {
@@ -61,7 +61,7 @@ header h1 {
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: var(--title);
-    margin-bottom: 1.19rem;
+    margin-bottom: 1.19rem
 }
 
 .content-right p {
@@ -69,7 +69,7 @@ header h1 {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--title);
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem
 }
 
 button {
@@ -82,23 +82,23 @@ button {
     padding-bottom: 0.666rem;
     padding-left: 0.84rem;
     padding-right: 1.061rem;
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.625rem
 }
 
 button:hover {
     background: #D9D8D8;
-    cursor: pointer;
+    cursor: pointer
 }
 
 button img {
-    margin-right: 1.063rem;
+    margin-right: 1.063rem
 }
 
 button span {
     font-weight: 700;
     font-size: 0.75rem;
     line-height: 1.125rem;
-    color: black;
+    color: black
 }
 
 p2 {
@@ -108,34 +108,34 @@ p2 {
     color: var(--title);
     width: 23.813rem;
     text-align: center;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem
 }
 
-@media (min-width: 300px) {
+@media (max-width: 600px) {
     body {
-        min-height: 130vh;
+        min-height: 130vh
     }
     header {
-        margin-top: 3.125rem;
+        margin-top: 3.125rem
     }
     header h1 {
-        margin-bottom: 1.899rem;
+        margin-bottom: 1.899rem
     }
     .content {
-        flex-direction: column;
+        flex-direction: column
     }
     .content-left img {
-        margin-bottom: 1.241rem;
+        margin-bottom: 1.241rem
     }
     .content-right {
         width: 19.75rem;
-        margin-left: 0;
+        margin-left: 0
     }
     .content-right h2,
     .content-right p {
-        text-align: center;
+        text-align: center
     }
     p2 {
-        margin-bottom: 6.438rem;
+        margin-bottom: 6.438rem
     }
 }
