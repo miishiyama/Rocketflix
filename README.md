@@ -1,4 +1,4 @@
-# Rocketseat
+# Rocketflix
 
 <p align="center">
   Preview:
