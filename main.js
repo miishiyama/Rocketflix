@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
 })
 
 function findMovie() {
-    const movie_id = (Math.random() * 1000) + 1
+    const movie_id = (Math.random() * 10000) + 1
     const url = `${ BASE_URL }${ movie_id }?${ API_KEY }&${ language }`
     axios.get(url).then(response => {
         const data = response.data
