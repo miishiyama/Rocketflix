@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --title: #FFFCF9;
+    --bg-button: #E9E6E3;
+    --background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%);
+}
+
+body,
+header,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: var(--background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 6.25rem;
+}
+
+header h1 {
+    margin-top: 0.629rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    color: var(--title);
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content-left img {
+    width: 10.688rem;
+    height: 15.236rem;
+}
+
+.content-right {
+    width: 26.438rem;
+    margin-left: 2.125rem;
+}
+
+.content-right h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--title);
+    margin-bottom: 1.19rem;
+}
+
+.content-right p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--title);
+    margin-bottom: 1.875rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background: var(--bg-button);
+    border: 0.125rem solid #1A1A1A;
+    border-radius: 0.313rem;
+    padding-top: 0.691rem;
+    padding-bottom: 0.666rem;
+    padding-left: 0.84rem;
+    padding-right: 1.061rem;
+    margin-bottom: 1.625rem;
+}
+
+button:hover {
+    background: #D9D8D8;
+    cursor: pointer;
+}
+
+button img {
+    margin-right: 1.063rem;
+}
+
+button span {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: black;
+}
+
+p2 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: var(--title);
+    width: 23.813rem;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+@media (min-width: 300px) {
+    body {
+        min-height: 130vh;
+    }
+    header {
+        margin-top: 3.125rem;
+    }
+    header h1 {
+        margin-bottom: 1.899rem;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content-left img {
+        margin-bottom: 1.241rem;
+    }
+    .content-right {
+        width: 19.75rem;
+        margin-left: 0;
+    }
+    .content-right h2,
+    .content-right p {
+        text-align: center;
+    }
+    p2 {
+        margin-bottom: 6.438rem;
+    }
+}
