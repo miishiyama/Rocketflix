@@ -41,8 +41,6 @@ function findMovie() {
             <h2>
                 Ops, hoje não é dia de assistir filme. Bora codar! 🚀
             </h2>
-            <p>
-            </p>
         `
     })
 }
