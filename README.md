@@ -15,7 +15,7 @@
 ![preview](./preview/1440x747/Rocketflix-1440x747.png)
 
 ## Projeto 💻
-Projeto de um desafio da Rocketseat de utilizar a API do themoviedb.org para exibir um filme aleatório sempre que clicar em Encontrar Filme.
+Projeto de um desafio da Rocketseat de utilizar a API do themoviedb.org para exibir um filme aleatório sempre que clicar em "Encontrar Filme".
 
 ## Layout 🔖
 Segue abaixo o layout deste projeto:
